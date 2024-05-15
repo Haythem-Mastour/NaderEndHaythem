@@ -15,7 +15,10 @@ export class Lesson1Component {
 this.state=!this.state;
   }
 
-  
+  Previous()
+  {
+    this.route.navigate(['./']);
+  }
   Next()
   {
     this.route.navigate(['./Lesson2']);

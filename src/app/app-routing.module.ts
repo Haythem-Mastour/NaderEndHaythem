@@ -11,9 +11,10 @@ import { Lesson11Component } from './Components/lesson11/lesson11.component';
 import { Lesson1Component } from './Components/lesson1/lesson1.component';
 import { Lesson3Component } from './Components/lesson3/lesson3.component';
 import { Lesson2Component } from './Components/lesson2/lesson2.component';
+import { Lesson12Component } from './Components/lesson12/lesson12.component';
 
 const routes: Routes = [
-  {path:"",component:Lesson1Component},
+  {path:"Lesson1",component:Lesson1Component},
   {path:"Lesson2",component:Lesson2Component},
   {path:"Lesson3",component:Lesson3Component},
   {path:"Lesson4",component:Leson4Component},
@@ -24,6 +25,7 @@ const routes: Routes = [
   {path:"Lesson9",component:Lesson9Component},
   {path:"Lesson10",component:Lesson10Component},
   {path:"Lesson11",component:Lesson11Component},
+  {path:"",component:Lesson12Component}
 
 
  
